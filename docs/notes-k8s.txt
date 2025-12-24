@@ -18,11 +18,6 @@ Voorbeel app:
  
 Mogelijkheden met private Repoos
 
-
-Git credentials:
-dschudde
-A7LJ9juDmPtY0kCSigLlC55fW20LJZTpcoDPQzH6dHFiRXtpzI9jJQQJ99BLACAAAAATckvqAAASAZDO58cw
-
 Github actions vs Azure pipelines
 https://dev.to/hamzakhan/azure-devops-vs-github-actions-a-comprehensive-guide-with-examples-performance-metrics-46oc
 
