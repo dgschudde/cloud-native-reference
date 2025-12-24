@@ -1,0 +1,61 @@
+Te onderzoeken:
+
+Bicep vs Terraform
+ArgoCD
+Tooling voor monitoring / logging 
+ - Prometheus vs Grafana
+Keyvault
+ - Azure Keyvault vs Hashicorp Vault
+DNS
+Ambassador vs API gateway / Ingress controller => welke te gebruiken
+Deployment
+ - Github actions vs Azure Devops pipelines
+ - ArgoCD https://argoproj.github.io/cd/
+
+Voorbeel app:
+ - Planbord
+ - Eigen minimal API
+ 
+Mogelijkheden met private Repoos
+
+
+Git credentials:
+dschudde
+A7LJ9juDmPtY0kCSigLlC55fW20LJZTpcoDPQzH6dHFiRXtpzI9jJQQJ99BLACAAAAATckvqAAASAZDO58cw
+
+Github actions vs Azure pipelines
+https://dev.to/hamzakhan/azure-devops-vs-github-actions-a-comprehensive-guide-with-examples-performance-metrics-46oc
+
+Github team subscription, 1 seat.
+
+Project management
+ - Github project
+ - Github issues 
+ - Github repository
+ 
+ Infrastructuur
+  - DSL
+  - Ingress
+  - Resources
+     - Keyvault
+     - k8s service
+     - Database (Postgres)
+     - Certificaat uitgifte, cert manager or selfsigned in Keyvault
+     - Caching
+     
+ Observability
+  - Logging (Seq)
+  - Monitoring (Grafana, Prometheus)	
+ 
+ Deployment
+  - Azure pipelins
+  - Github actions
+  - ArgoCD
+  - Helm / helmchart
+  - Code optimalization
+ 
+ Code
+  - Branching strategy
+  - Pull requests
+  - .NET 10 Minimal API
+  - Blazor frontend (MudBlazor)

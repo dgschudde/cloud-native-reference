@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4536806C-4134-4BCE-9124-FDADAC0A8D2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{041048DA-FC2F-4EE5-BAAD-088F324512AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{1E57AF96-2300-4944-9395-121F83BE48B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cloudnative.api", "src\backend\cloudnative.api\cloudnative.api.csproj", "{48FA0355-2105-40F1-A05D-9FBD8DD22855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cloudnative.web", "src\frontend\cloudnative.web\cloudnative.web.csproj", "{9A881314-EA56-4CF0-B486-5947815A04FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{041048DA-FC2F-4EE5-BAAD-088F324512AE} = {4536806C-4134-4BCE-9124-FDADAC0A8D2D}
+		{1E57AF96-2300-4944-9395-121F83BE48B3} = {4536806C-4134-4BCE-9124-FDADAC0A8D2D}
+		{48FA0355-2105-40F1-A05D-9FBD8DD22855} = {041048DA-FC2F-4EE5-BAAD-088F324512AE}
+		{9A881314-EA56-4CF0-B486-5947815A04FB} = {1E57AF96-2300-4944-9395-121F83BE48B3}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48FA0355-2105-40F1-A05D-9FBD8DD22855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FA0355-2105-40F1-A05D-9FBD8DD22855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FA0355-2105-40F1-A05D-9FBD8DD22855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FA0355-2105-40F1-A05D-9FBD8DD22855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A881314-EA56-4CF0-B486-5947815A04FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A881314-EA56-4CF0-B486-5947815A04FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A881314-EA56-4CF0-B486-5947815A04FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A881314-EA56-4CF0-B486-5947815A04FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
